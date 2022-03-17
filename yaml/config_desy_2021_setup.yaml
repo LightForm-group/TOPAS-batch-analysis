@@ -1,0 +1,33 @@
+batch_setup:
+    experiment_number:
+        - "02"
+        - "05"
+        - "06"
+        - "09"
+        - "10"
+
+    output_filepath: batch_files/batch_DESY_2021_experiment_{experiment_number}.bat
+
+    batch_filepath: C:\Batch{experiment_number}\
+    # Put in one \ at end of path to prevent format error
+
+    start:
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+
+    end:
+        - 3107
+        - 5744
+        - 5197
+        - 4644
+        - 4654
+
+    data_filename:
+        - Ti64_TIMET_RD_Heat_1200C_Cool_2Cs-1_Def02_1-
+        - Ti64_Rolled_TD_Compress_910C__1-00s-1_Single-Hit_Beta-Anneal_1Cs-1_1050C_Cool_4Cs-1_Def05_1-
+        - Ti64_Rolled_ND_Compress_910C__1-00s-1_Single-Hit_Beta-Anneal_1Cs-1_1050C_Cool_4Cs-1_Def06_1-
+        - Ti64_Rolled_ND_Compress_950C_0-01s-1_Single-Hit_Cool_4Cs-1_Def09_1-
+        - Ti64_Rolled_ND_Compress_850C_0-01s-1_Single-Hit_Cool_4Cs-1_Def10_1-

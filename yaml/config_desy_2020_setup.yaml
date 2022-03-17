@@ -1,0 +1,64 @@
+batch_setup:
+    experiment_number:
+        - "05"
+        - "06"
+        - "07b"
+        - "08b"
+        - "09b"
+        - "10"
+        - "11"
+        - "12"
+        - "13"
+        - "14"
+        - "15"
+        - "16"
+
+    output_filepath: batch_files/batch_DESY_2020_experiment_{experiment_number}.bat
+
+    batch_filepath: C:\Batch{experiment_number}\
+    # Put in one \ at end of path to prevent format error
+
+    start:
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+
+    end:
+        - 4167
+        - 4339
+        - 4745
+        - 4922
+        - 5009
+        - 4919
+        - 4883
+        - 4656
+        - 4439
+        - 4301
+        - 4278
+        - 3982
+
+    data_filename:
+        - Ti64_Rolled_TD_Compress_850C_1-00s-1_Single-Hit_Cool_4Cs-1_1-
+        - Ti64_Rolled_TD_Compress_910C_1-00s-1_Single-Hit_Cool_4Cs-1_1-
+        - Ti64_Rolled_TD_Compress_850C_0-01s-1_Single-Hit_Cool_4Cs-1_new_1-
+        - Ti64_Rolled_TD_Compress_910C_0-01s-1_Single-Hit_Cool_4Cs-1_new_1-
+        - Ti64_Rolled_TD_Compress_950C_0-01s-1_Single-Hit_Cool_4Cs-1_new_1-
+        - Ti64_Rolled_ND_Compress_910C_0-01s-1_Single-Hit_Cool_4Cs-1_1-
+        - Ti64_TIMET_RD_Compress_910C_0-01s-1_Single-Hit_Cool_4Cs-1_1-
+        - Ti6246_Forged_DD_Compress_880C_0-01s-1_Single-Hit_Cool_60Cs-1_1-
+        - Ti64_Rolled_TD_Compress_950C_1-00s-1_Single-Hit_Cool_4Cs-1_1-
+        - Ti64_Rolled_ND_Compress_910C_1-00s-1_Single-Hit_Cool_4Cs-1_1-
+        - Ti64_TIMET_RD_Compress_910C_1-00s-1_Single-Hit_Cool_4Cs-1_1-
+        - Ti6246_Forged_DD_Compress_880C_1-00s-1_Single-Hit_Cool_60Cs-1_1-
+
+
+

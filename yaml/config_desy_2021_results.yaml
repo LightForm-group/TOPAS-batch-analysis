@@ -1,0 +1,40 @@
+results_setup:
+    experiment_number:
+        - "05"
+        - "06"
+        - "09"
+        - "10"
+
+    input_filepath: ../../SXRD_analysis/desy_2021/experiment{experiment_number}-deformation/phase-fraction-TOPAS/Batch{experiment_number}/results.txt
+
+    output_filepath: ../../SXRD_results/desy_2021/experiment{experiment_number}-deformation/phase-fraction-TOPAS
+
+    frame_acquisition:
+
+    plot_bounds:
+
+        limits: true
+
+        deformation_start: [1900,1900,1950,1950]
+
+        deformation_end: [3200,3200,2650,2650]
+
+        rwp_min: [0,0,0,0]
+
+        rwp_max: [20,20,20,20]
+
+        gof_min: [0,0,0,0]
+
+        gof_max: [3.5,3.5,3.5,3.5]
+
+        alpha_c_min: [4.714,4.721,4.725,4.713]
+
+        alpha_c_max: [4.730,4.737,4.741,4.729]
+
+        alpha_a_min: [2.946,2.945,2.946,2.940]
+
+        alpha_a_max: [2.962,2.961,2.962,2.956]
+
+        beta_a_min: [3.274,3.278,3.281,3.268]
+
+        beta_a_max: [3.286,3.290,3.293,3.280]
