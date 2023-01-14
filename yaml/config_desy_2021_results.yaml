@@ -1,13 +1,18 @@
 results_setup:
+        experiment_name:
+        - "experiment"
+        - "experiment"
+        - "experiment"
+
     experiment_number:
         - "05"
         - "06"
         - "09"
         - "10"
 
-    input_filepath: ../../SXRD_analysis/desy_2021/experiment{experiment_number}-deformation/phase-fraction-TOPAS/Batch{experiment_number}/results.txt
+    input_filepath: ../../SXRD_analysis/desy_2021/{experiment_name}{experiment_number}-deformation/phase-fraction-TOPAS/Batch{experiment_number}/results.txt
 
-    output_filepath: ../../SXRD_results/desy_2021/experiment{experiment_number}-deformation/phase-fraction-TOPAS
+    output_filepath: ../../SXRD_results/desy_2021/{experiment_name}{experiment_number}-deformation/phase-fraction-TOPAS
 
     frame_acquisition:
 

@@ -31,3 +31,10 @@ batch_setup:
         - Ti64_Rolled_ND_Compress_910C__1-00s-1_Single-Hit_Beta-Anneal_1Cs-1_1050C_Cool_4Cs-1_Def06_1-
         - Ti64_Rolled_ND_Compress_950C_0-01s-1_Single-Hit_Cool_4Cs-1_Def09_1-
         - Ti64_Rolled_ND_Compress_850C_0-01s-1_Single-Hit_Cool_4Cs-1_Def10_1-
+
+    input_filename:
+        - Ti64_TIMET_RD_Heat_1200C_Cool_2Cs-1_Def02_1-
+        - Ti64_Rolled_TD_Compress_910C__1-00s-1_Single-Hit_Beta-Anneal_1Cs-1_1050C_Cool_4Cs-1_Def05_1-
+        - Ti64_Rolled_ND_Compress_910C__1-00s-1_Single-Hit_Beta-Anneal_1Cs-1_1050C_Cool_4Cs-1_Def06_1-
+        - Ti64_Rolled_ND_Compress_950C_0-01s-1_Single-Hit_Cool_4Cs-1_Def09_1-
+        - Ti64_Rolled_ND_Compress_850C_0-01s-1_Single-Hit_Cool_4Cs-1_Def10_1-

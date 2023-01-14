@@ -1,0 +1,46 @@
+results_setup:
+    experiment_name:
+        - "006_Ti64_TIFUN-R2_RD_Deform_950C_1mms-1"
+        - "014_Ti64_TIFUN-R1_RD_Deform_910C_0.1mms-1"
+        - "018_Ti64_TIFUN-R1_RD_Deform_950C_0.1mms-1"
+        - "038_Ti64_TIFUN-T4_TD_Deform_950C_0.1mms-1"
+
+    experiment_number:
+        - "111480"
+        - "111525"
+        - "111548"
+        - "111698"
+
+    input_filepath: ../../SXRD_analysis/diamond_2022/{experiment_name}/{experiment_number}/phase-fraction-TOPAS/Batch{experiment_number}/results.txt
+
+    output_filepath: ../../SXRD_results/diamond_2022/experiment_{experiment_number}/phase-fraction-TOPAS
+
+    frame_acquisition:
+
+    plot_bounds:
+
+        limits: true
+
+        deformation_start: [0,0,0,0]
+
+        deformation_end: [160,160,160,160]
+
+        rwp_min: [0,0,0,0]
+
+        rwp_max: [20,20,20,20]
+
+        gof_min: [0,0,0,0]
+
+        gof_max: [3,3,3,3]
+
+        alpha_c_min: [4.700,4.700,4.700,4.700]
+
+        alpha_c_max: [4.775,4.775,4.775,4.775]
+
+        alpha_a_min: [2.940,2.940,2.940,2.940]
+
+        alpha_a_max: [2.985,2.985,2.985,2.985]
+
+        beta_a_min: [3.240,3.240,3.240,3.240]
+
+        beta_a_max: [3.325,3.325,3.325,3.325]

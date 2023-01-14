@@ -6,3 +6,6 @@ __pycache__/
 /venv
 /.idea
 /batch_plots/*
+.DS_Store
+cif/.DS_Store
+example_INP_files/.DS_Store

@@ -1,0 +1,156 @@
+batch_setup:
+    experiment_number:
+        - "009"
+        - "016"
+        - "033"
+        - "004"
+        - "005"
+        - "006"
+        - "008"
+        - "011"
+        - "012"
+        - "017"
+        - "018"
+        - "019"
+        - "020"
+        - "025"
+        - "026"
+        - "027"
+        - "028"
+        - "029"
+        - "031"
+        - "032"
+        - "034"
+        - "037"
+        - "038"
+        - "014"
+        - "111480"
+        - "111525"
+        - "111548"
+        - "111698"
+
+    output_filepath: batch_files/batch_diamond_2022_experiment_{experiment_number}.bat
+
+    batch_filepath: C:\Batch{experiment_number}\
+    # Put in one \ at end of path to prevent format error
+
+    start:
+        - 719
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+        - 1
+
+    end:
+        - 2727
+        - 2642
+        - 3353
+        - 6000
+        - 6000
+        - 6000
+        - 6000
+        - 6000
+        - 6000
+        - 6000
+        - 6000
+        - 6000
+        - 6000
+        - 6000
+        - 6000
+        - 6000
+        - 6000
+        - 6000
+        - 6000
+        - 6000
+        - 6000
+        - 6000
+        - 6000
+        - 6000
+        - 160
+        - 160
+        - 160
+        - 160
+
+    data_filename:
+        - Ti64_TIFUN-T5_TD_Heat_1200C_1Cs-1-
+        - Ti64_TIFUN-T5_TD_Heat_1200C_1Cs-1-
+        - Ti64_TIFUN-T6_TD_Heat_1200C_1Cs-1-
+        - Ti64_TIFUN-R2_RD_Deform_850C_1mms-1-
+        - Ti64_TIFUN-R2_RD_Deform_910C_1mms-1-
+        - Ti64_TIFUN-R2_RD_Deform_950C_1mms-1-
+        - Ti64_TIFUN-T5_TD_Deform_850C_1mms-1-
+        - Ti64_TIFUN-T5_TD_Deform_950C_1mms-1-
+        - Ti64_TIFUN-R1_RD_Deform_850C_0.1mms-1-
+        - Ti64_TIFUN-R1_RD_Deform_910C_0.1mms-1-
+        - Ti64_TIFUN-R1_RD_Deform_950C_0.1mms-1-
+        - Ti64_TIFUN-T5_TD_Deform_850C_0.1mms-1-
+        - Ti64_TIFUN-T5_TD_Deform_910C_0.1mms-1-
+        - Ti64_TIFUN-T5_TD_Deform_950C_0.1mms-1-
+        - Ti64_TIFUN-R1_RD_Deform_880C_0.1mms-1-
+        - Ti64_TIFUN-R2_RD_Deform_880C_1mms-1-
+        - Ti64_TIFUN-T4_TD_Deform_880C_1mms-1-
+        - Ti64_TIFUN-T4_TD_Deform_930C_1mms-1-
+        - Ti64_TIFUN-T4_TD_Deform_880C_0.1mms-1-
+        - Ti64_TIFUN-T4_TD_Deform_930C_0.1mms-1-
+        - Ti64_TIFUN-T4_TD_Deform_910C_1mms-1-
+        - Ti64_TIFUN-T4_TD_Deform_910C_0.1mms-1-
+        - Ti64_TIFUN-T4_TD_Deform_950C_0.1mms-1-
+        - Ti64_TIFUN-R1_RD_Deform_910C_0.1mms-1-
+        - Ti64_TIFUN-R2_RD_Deform_950C_1mms-1-
+        - Ti64_TIFUN-R1_RD_Deform_910C_0.1mms-1-
+        - Ti64_TIFUN-R1_RD_Deform_950C_0.1mms-1-
+        - Ti64_TIFUN-T4_TD_Deform_950C_0.1mms-1-
+
+
+    input_filename:
+        - ""
+        - ""
+        - ""
+        - "pilatus_"
+        - "pilatus_"
+        - "pilatus_"
+        - "pilatus_"
+        - "pilatus_"
+        - "pilatus_"
+        - "pilatus_"
+        - "pilatus_"
+        - "pilatus_"
+        - "pilatus_"
+        - "pilatus_"
+        - "pilatus_"
+        - "pilatus_"
+        - "pilatus_"
+        - "pilatus_"
+        - "pilatus_"
+        - "pilatus_"
+        - "pilatus_"
+        - "pilatus_"
+        - "pilatus_"
+        - "pilatus_"
+        - ""
+        - ""
+        - ""
+        - ""
